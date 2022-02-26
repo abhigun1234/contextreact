@@ -7,8 +7,8 @@ class ComponentB extends Component {
             <UserConsumer>
 
                 {
-                    (username)=>{
-                        return<div><h1>Component B</h1>Hello {username}</div>
+                    (res)=>{
+                        return<div><h1>Component B</h1>Hello {res}</div>
                     }
                 }
             </UserConsumer>
