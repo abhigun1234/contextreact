@@ -1,4 +1,5 @@
 import React from 'react';
+import ComponentE from './ComponentE';
 import {UserConsumer} from './UserContext'
 function ComponentF(props) {
     return (
@@ -11,6 +12,7 @@ function ComponentF(props) {
                     }
                 }
             </UserConsumer>
+            <ComponentE></ComponentE>
         </div>
     );
 }

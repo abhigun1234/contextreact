@@ -7,7 +7,7 @@ import Product from './Product';
 function App() {
   return (
     <div className="App">
-      <UserProvider value="hkbhkbhkjbhikikhj">
+      <UserProvider value="hi now also we are able to send data via context api but we can access through context hooks">
      <ComponentA></ComponentA>
      {/* <Product></Product> */}
      </UserProvider>
